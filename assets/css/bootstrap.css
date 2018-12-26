@@ -1,0 +1,121 @@
+/*
+/* Created by Filipe Pina
+ * Specific styles of signin, register, component
+ */
+/*
+ * General styles
+ */
+
+ body, html{
+    font-family: -apple-system, 'Kanit', 'Prompt', 'K2D', 'Cantarell', 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    font-size: large;
+}
+
+body{
+    /* background-color:rgba(0, 128, 128,0.5);    */
+     background-image: url("../img/BG10.png"); 
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+
+.main{
+    margin-top: 70px;
+}
+
+
+.main-back{
+    background-color: #fff;
+    opacity: 0.8;
+   /* shadows and rounded borders */
+   -moz-border-radius: 2px;
+   -webkit-border-radius: 2px;
+   border-radius: 8px;
+   /* -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+   -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3); */
+   
+}
+
+.main-center{
+    margin-top: 30px;
+    margin: 10px auto;
+    max-width: max-content; 
+    padding: 40px 20px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    max-width: 150px;
+    padding-top: 10px;
+}
+
+@media screen and (max-width: 780px) {
+    .container{
+        padding-top: 10%;
+    }    
+}
+
+@media screen and (max-width: 400px){
+    .container{
+        padding-top: 10%;
+    }
+
+    body {
+        font-size: 14px;
+    }
+    
+    img{
+        max-width: 110px;
+    }
+}
+
+.table-center{
+    /* width: 100% ; */
+    text-align : center;
+}
+
+.td-center{
+    text-align: center;
+}
+
+.td-left{
+    max-width: max-content;
+    text-align: left;
+}
+
+.td-right{
+    width: 45% ;
+    text-align: right;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    outline: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.button1 {
+    background-color: #4CAF50; 
+    color: white; 
+    border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+    background-color: white;
+    color: black;
+}
